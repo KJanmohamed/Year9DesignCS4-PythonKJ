@@ -39,3 +39,7 @@ while len(word) <6 or word.isalpha() == False:
 		#When we reach the bottom of the loop block we check the codition again, If it is true, we go back to the top of the block and run it again.
 
 	print(word+" is a seriously long word!")
+
+	#DO NOT USE WHILE LOOPS TO CONTROL INPUTES WITH GUI PROGRAMS!!!!!!!!
+
+	
