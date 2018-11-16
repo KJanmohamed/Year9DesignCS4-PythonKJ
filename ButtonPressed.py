@@ -4,11 +4,11 @@ from PIL import ImageTk, Image
 #to setup the image for clicking. 
 
 def clicked1(event):
-	print("Clicked - 1")
+	print("Inputed")
 
 
 def clicked2(event):
-	print("Clicked - 2")
+	print("Inputed")
 
 #This creates the main window of an application
 window = tk.Tk()
