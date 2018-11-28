@@ -31,4 +31,14 @@ Btn1.grid(row = 6, column=1, columnspan = 2)
 Txt2 = tk.Label(root, text = "Your average until week 4 is ")
 Txt2.grid(row = 7, column = 0, columnspan = 3)
 
+Lb1 = tk.Listbox(root)
+Lb1.insert(1, "Python")
+Lb1.insert(2, "Perl")
+Lb1.insert(3, "C")
+Lb1.insert(4, "PHP")
+Lb1.insert(5, "JSP")
+Lb1.insert(6, "Ruby")
+
+Lb1.grid(row = 8, column = 1)
+
 root.mainloop()
