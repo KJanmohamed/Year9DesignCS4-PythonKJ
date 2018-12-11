@@ -24,6 +24,12 @@ def submit():
 		if v.get() == "2":
 			player2memo.append(ent1.get())
 			player2time.append(x)
+		if v.get() == "3":
+			player3memo.append(ent1.get())
+			player3time.append(x)
+		if v.get() == "4":
+			player4memo.append(ent1.get())
+			player4time.append(x)
 
 		print(player1memo)
 		print(player1time)
@@ -51,11 +57,26 @@ def change(*args):
 	lb1.delete(0,tk.END)
 	lb2.delete(0,tk.END)
 
-	#Put all of hte player 2 back in 
+	#Put all of the player 2 back in 
 	if v.get() == "1":
 		for i in range(0, len(player1memo),1):
 			lb1.insert(0,player1memo[i])
 			lb2.insert(0,player1time[i])
+
+	if v.get() == "2":
+		for i in range(0, len(player2memo),1):
+			lb1.insert(0,player2memo[i])
+			lb2.insert(0,player2time[i])
+
+	if v.get() == "3":
+		for i in range(0, len(player3memo),1):
+			lb1.insert(0,player3memo[i])
+			lb2.insert(0,player3time[i])
+
+	if v.get() == "4":
+		for i in range(0, len(player4memo),1):
+			lb1.insert(0,player4memo[i])
+			lb2.insert(0,player4time[i])
 
 
 
@@ -64,6 +85,12 @@ player1time = []
 
 player2memo = []
 player2time = []
+
+player3memo = []
+player3time = []
+
+player4memo = []
+player4time = []
 
 
 MODES = [
