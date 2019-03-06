@@ -75,7 +75,7 @@ def change(*args):
 	lb1.delete(0,tk.END)
 	lb2.delete(0,tk.END)
 
-	#THIS IS WHERE EVERYTHING GETS DELETED
+	#Where everything gets inputed into a list!
 	if v.get() == "1":
 		for i in range(0, len(player1memo),1):
 			lb1.insert(0,player1memo[i])
